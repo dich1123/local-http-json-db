@@ -1,0 +1,23 @@
+{
+  "users": ["All users", "Kate", "Leo", "Phil", "Dima"],
+  "events": [
+    {
+      "event_name": "Retro",
+      "day": "Monday",
+      "time_slot": "11:00",
+      "participants": ["Kate", "Dima"]
+    },
+    {
+      "event_name": "Planning",
+      "day": "Friday",
+      "time_slot": "16:00",
+      "participants": ["Kate", "Leo"]
+    },
+    {
+      "event_name": "All company meeting",
+      "day": "Monday",
+      "time_slot": "17:00",
+      "participants": ["All users"]
+    }
+  ]
+}
