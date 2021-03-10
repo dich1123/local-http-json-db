@@ -1,5 +1,5 @@
 import json
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 
@@ -33,4 +33,9 @@ def db():
     return 'Wrong request method', 405
 
 
-app.run(port=5123)
+@app.route('/table', methods=['GET'])
+def table():
+    return render_template('your_table.html')
+
+
+app.run(port=5123, debug=True)
